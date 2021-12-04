@@ -55,8 +55,6 @@ return inquirer.prompt([
   
 } ;
 
-
-
 const promptProject = portfolioData => {
   
   if(!portfolioData.projects){
