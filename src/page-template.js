@@ -54,7 +54,6 @@ const generateProjects = projectsArr =>{
 };
 
 function generatePage(templateData) {
-
   // destructure projects and about data from templateData based on their property key names
   const { projects, about, ...header } = templateData;
   console.log(header);
@@ -95,7 +94,7 @@ function generatePage(templateData) {
 }
 
   module.exports = generatePage;
-  
+
     // //get array of just featured projects
     // const featuredProjects = projectsArr.filter(project =>{
     //   if (project.feature) {
